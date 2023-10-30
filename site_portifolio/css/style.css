@@ -190,61 +190,77 @@ button {
     cursor: pointer;
     box-shadow: 0 0 22px rgb(109 109 109 / 62%);
 }
-.btn_contato button:hover{
+
+button:hover {
     color: var(--cor03);
     background-color: var(--cor01);
     border: 2px solid var(--cor04);
     transition: .5s;
 }
 
-.projetos{
+.projetos {
     background-color: var(--cor02);
     text-align: center;
     padding: 50px 3%;
-    
+
 }
-.projetos h2{
-    color: var(--cor03);
-    font-size: 35px ;
+.projetos h2 span{
+    color: var(--cor04);
+    font-size: 35px;
     font-weight: 700;
     font-family: var(--montserrat);
 }
 
-.main_projetos{
+.projetos h2 {
+    color: var(--cor03);
+    font-size: 35px;
+    font-weight: 700;
+    font-family: var(--montserrat);
+}
+
+.main_projetos {
     padding: 50px 3%;
     display: flex;
     justify-content: space-around;
     gap: 35px;
 }
 
-.projeto_todoList{
+.projeto_todoList {
     background-color: var(--cor01);
     color: var(--cor03);
     width: 33%;
     min-height: 200px;
     display: flex;
-    gap: 40px;
     flex-direction: column;
     justify-content: space-around;
     border-radius: 15px;
-    padding: 35px 0;
+    padding: 45px 0;
 }
 
-.projeto_todoList img{
-    width: 60px;
+.projeto_todoList img {
+    width: 100px;
     margin: 0 auto;
 }
 
-.projeto_todoList h3{
-    font-family: var(--montserrat);
-    font-size: 25px;
-    font-weight: 700;
+.projeto_todoList h3 {
+    font-family: var(--nunito);
+    font-size: 30px;
+    font-weight: 900;
+    margin-top: 10px;
 
 }
-.projeto_todoList button{
+
+.projeto_todoList p {
+    font-size: 16px;
+    text-align: justify;
+    margin: 35px 20px;
+}
+
+.projeto_todoList button {
     margin: 0 auto;
 }
-.main_projetos a{
+
+.main_projetos a {
     color: var(--cor03);
     text-decoration: none;
     font-size: 18px;
@@ -253,15 +269,30 @@ button {
 
 
 
-footer{
+footer {
     text-align: center;
     color: var(--cor03);
-    background-color: var(--cor02);
+    background-color: var(--cor01);
     padding: 30px 3%;
 }
-footer h2{
+footer h5{
+    font-size: 17px;
     font-family: var(--montserrat);
-    font-size: 16px;
+}
+footer p{
+    font-family: var(--montserrat);
+    font-size: 14px;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+    gap: 20px;
+}
+.social img{
+    width: 35px;
+    border-radius: 50%;
+    
 }
 
 /*  Animação  */
